@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 const path = require('path')
 
 module.exports = {
@@ -18,6 +20,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      React: 'react'
+    }),
+  ],
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     port: 8080
