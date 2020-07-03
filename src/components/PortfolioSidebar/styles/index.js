@@ -1,14 +1,13 @@
 export const styles = theme => {
-
-  console.log(theme)
   return {
     container: {
-      height: '100%',
+      height: '100vh',
       paddingTop: 40,
       backgroundColor: theme.palette.primary[400],
       paddingRight: '10%',
       paddingLeft: '10%',
-      position: 'relative'
+      position: 'relative',
+      color: theme.palette.text.secondary
     },
     imageMe: {
       width: 350,
@@ -38,7 +37,7 @@ export const styles = theme => {
       margin: '0px auto 20px auto'
     },
     link: {
-      color: theme.palette.text.primary,
+      color: theme.palette.text.secondary,
       textDecoration: 'none',
       letterSpacing: 2
     },

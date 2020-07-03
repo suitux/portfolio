@@ -1,11 +1,11 @@
-import { Box, withStyles } from '@material-ui/core'
+import { Box, Tooltip, withStyles } from '@material-ui/core'
 import { styles } from './styles'
 
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
 import EmailIcon from '@material-ui/icons/Email'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
-import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
+import GetAppIcon from '@material-ui/icons/GetApp'
 import { List, ListItem, ListItemIcon, ListItemText, Fab } from '@material-ui/core'
 
 const PortfolioSidebarComponent = ({ display, classes }) => {
@@ -62,9 +62,11 @@ const PortfolioSidebarComponent = ({ display, classes }) => {
         </ListItem>
       </List>
 
-      <Fab color={'primary'} aria-label={'download'} className={classes.downloadAsPdf}>
-        <PictureAsPdfIcon />
-      </Fab>
+      <Tooltip title={'Curriculum'}>
+        <Fab color={'primary'} aria-label={'download'} className={classes.downloadAsPdf}>
+          <GetAppIcon />
+        </Fab>
+      </Tooltip>
     </Box>
   )
 }

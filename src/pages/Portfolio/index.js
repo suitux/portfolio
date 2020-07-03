@@ -1,7 +1,8 @@
 import { PortfolioSidebar } from '../../components/PortfolioSidebar'
-import Grid from '@material-ui/core/Grid'
+import { Grid, Box } from '@material-ui/core'
 import { withStyles } from '@material-ui/core'
 import { styles } from './styles'
+import { PortfolioContent } from "../../components/PortfolioContent";
 
 const PortfolioPageComponent = ({ classes }) => {
   return (
@@ -18,7 +19,16 @@ const PortfolioPageComponent = ({ classes }) => {
         />
       </Grid>
       <Grid item xs={12} sm={12} md={7} lg={8} xl={8}>
-        jarl
+        <Box
+          display={{
+            xs: 'block',
+            sm: 'block',
+            md: 'none',
+            lg: 'none',
+            xl: 'none'
+          }}
+        >a</Box>
+        <PortfolioContent />
       </Grid>
     </Grid>
   )
