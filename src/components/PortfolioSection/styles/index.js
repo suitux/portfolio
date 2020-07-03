@@ -1,13 +1,12 @@
 export const styles = theme => {
   return {
     section: {
+      width: '100%',
+      paddingTop: 40
     },
     title: {
       textAlign: 'center',
-      marginBottom: 50
-    },
-    experience: {
-
+      letterSpacing: 6
     }
   }
 }

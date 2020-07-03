@@ -1,16 +1,14 @@
 import { Typography, withStyles } from '@material-ui/core'
 import { styles } from './styles'
+import { PortfolioSection } from "../../components/PortfolioSection";
+
 
 const TrajectorySectionComponent = ({ classes }) => {
   return (
-    <div className={classes.section}>
-      <Typography color={'secondary'} component={'h2'} variant={'h2'} className={classes.title}>
-        Trajectory
-      </Typography>
-      <div>
-        holaa
+    <PortfolioSection title={'Trajectory'}>
+      <div className={classes.experience}>
       </div>
-    </div>
+    </PortfolioSection>
   )
 }
 
