@@ -17,13 +17,17 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
       }
     ]
   },
   plugins: [
     new webpack.ProvidePlugin({
       React: 'react'
-    }),
+    })
   ],
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),

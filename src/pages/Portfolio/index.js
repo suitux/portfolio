@@ -17,7 +17,7 @@ const PortfolioPageComponent = ({ classes }) => {
           }}
         />
       </Grid>
-      <Grid item xs={12} sm={12} md={7} lg={8} xl={8} style={{ backgroundColor: 'blue' }}>
+      <Grid item xs={12} sm={12} md={7} lg={8} xl={8}>
         jarl
       </Grid>
     </Grid>
