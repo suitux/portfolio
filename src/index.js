@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Portfolio from './components/portfolio'
 import { Provider } from 'react-redux'
 import store from './redux/store'
 import { MuiThemeProvider } from '@material-ui/core'
