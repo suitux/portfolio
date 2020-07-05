@@ -6,7 +6,8 @@ export const styles = theme => {
     },
     title: {
       textAlign: 'center',
-      letterSpacing: 6
+      letterSpacing: 6,
+      marginBottom: 40
     }
   }
 }
