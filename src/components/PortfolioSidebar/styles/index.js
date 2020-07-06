@@ -1,6 +1,7 @@
 export const styles = theme => {
   return {
     container: {
+      minHeight: '-webkit-fill-available',
       height: '100vh',
       paddingTop: 40,
       backgroundColor: theme.palette.primary[400],
@@ -10,14 +11,9 @@ export const styles = theme => {
       color: theme.palette.text.secondary
     },
     imageMe: {
-      width: 350,
-      height: 350,
-      backgroundColor: theme.palette.secondary[300],
-      borderRadius: '100%',
-      margin: '0 auto',
-      backgroundImage:
-        "url('https://media-exp1.licdn.com/dms/image/C4E03AQGKuuX_Jxx1Nw/profile-displayphoto-shrink_400_400/0?e=1599091200&v=beta&t=_IraE4VtTxe2g1K3gwkQuJNBftCpXBlp4krk7X9RHwQ')",
-      backgroundSize: 'cover'
+      width: '80%',
+      display: 'block',
+      margin: '0 auto'
     },
     title: {
       textAlign: 'center',

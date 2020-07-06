@@ -11,7 +11,7 @@ import { List, ListItem, ListItemIcon, ListItemText, Fab } from '@material-ui/co
 const PortfolioSidebarComponent = ({ display, classes }) => {
   return (
     <Box display={display} className={classes.container}>
-      <div className={classes.imageMe} />
+      <img src={'./src/img/circle-xavi.png'} className={classes.imageMe} />
       <h1 className={classes.title}>Xavier Rincon Rico</h1>
       <h2 className={classes.subTitle}>Full Stack Developer</h2>
       <hr className={classes.separator} />

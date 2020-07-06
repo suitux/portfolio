@@ -5,6 +5,7 @@ import { TrajectorySection } from '../../sections/TrajectorySection'
 import { SkillsSection } from '../../sections/SkillsSection'
 import { getCookie, setCookie } from '../../helpers/cookies'
 import { AchievementAlert } from '../AchievementAlert'
+import { OnlyMobileSection } from "../../sections/OnlyMobileSection";
 
 const PortfolioContentComponent = ({ display, classes }) => {
   const [firstVisit, setFirstVisit] = React.useState(false)
@@ -40,7 +41,7 @@ const PortfolioContentComponent = ({ display, classes }) => {
           lg: 'none',
           xl: 'none'
         }}
-      ><div style={{ width: '100%', height: 100, backgroundColor: 'red' }}>ONLY MOBILE</div></Box>
+      ><OnlyMobileSection /></Box>
       <AboutMeSection />
       <TrajectorySection />
       <SkillsSection />
