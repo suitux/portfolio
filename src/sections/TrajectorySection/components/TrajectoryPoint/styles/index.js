@@ -1,9 +1,5 @@
 export const styles = theme => {
   return {
-    container: {
-      margin: '0 auto',
-      width: '70%'
-    },
     logoContainer: {
       width: 100,
       height: 100,
@@ -11,7 +7,8 @@ export const styles = theme => {
       borderRadius: '100%',
       margin: '0px auto 20px auto',
       backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+      backgroundColor: 'white'
     },
     title: {
       textAlign: 'center',
@@ -25,7 +22,6 @@ export const styles = theme => {
       fontWeight: 300,
     },
     separator: {
-      width: '70%',
       marginBottom: 20
     }
   }

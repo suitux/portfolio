@@ -12,7 +12,7 @@ export const styles = theme => {
     imageMe: {
       width: 350,
       height: 350,
-      backgroundColor: 'yellow',
+      backgroundColor: theme.palette.secondary[300],
       borderRadius: '100%',
       margin: '0 auto',
       backgroundImage:

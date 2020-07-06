@@ -8,7 +8,7 @@ const TrajectoryPointComponent = ({ enterprise, job, imageUrl, children, style, 
       <Typography variant={'h4'} component={'h3'} className={classes.title}>{enterprise}</Typography>
       <Typography variant={'h6'} component={'h4'} className={classes.subtitle}>{job}</Typography>
       <hr className={classes.separator} />
-      {children}
+      <div>{children}</div>
     </div>
   )
 }
