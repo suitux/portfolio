@@ -7,8 +7,35 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import GetAppIcon from '@material-ui/icons/GetApp'
 import { List, ListItem, ListItemIcon, ListItemText, Fab } from '@material-ui/core'
+import { AchievementAlert } from "../AchievementAlert";
+import { getCookie, setCookie } from "../../helpers/cookies";
 
 const PortfolioSidebarComponent = ({ display, classes }) => {
+  const [downloadCvAchievement, setDownloadCvAchievement] = React.useState(false)
+
+  const handleDownloadCV = () => {
+    const previouslyDownloadedCv = getCookie('downloadCvAchievement')
+
+    if (!previouslyDownloadedCv) {
+      setCookie('downloadCvAchievement', true, 15)
+      setDownloadCvAchievement(true)
+    }
+
+    /// TODO: Download CV
+  }
+
+  const renderArchivements = () => {
+    return (
+      <AchievementAlert
+        open={downloadCvAchievement}
+        onClose={() => {
+          setDownloadCvAchievement(false)
+        }}
+        text={'Downloaded my CV!'}
+      />
+    )
+  }
+
   return (
     <Box display={display} className={classes.container}>
       <img src={'./src/img/circle-xavi.png'} className={classes.imageMe} />
@@ -62,11 +89,13 @@ const PortfolioSidebarComponent = ({ display, classes }) => {
         </ListItem>
       </List>
 
-      <Tooltip title={'Curriculum'}>
-        <Fab color={'primary'} aria-label={'download'} className={classes.downloadAsPdf}>
+      <Tooltip title={'Download CV'}>
+        <Fab color={'primary'} aria-label={'download'} className={classes.downloadAsPdf} onClick={handleDownloadCV}>
           <GetAppIcon />
         </Fab>
       </Tooltip>
+
+      {renderArchivements()}
     </Box>
   )
 }
