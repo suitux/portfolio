@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="" />
+    <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/OnlyMobileSection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/OnlyMobileSection/styles/index.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +45,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\reactportfolio" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\reactportfolio\src\components" />
       <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
-      <recent name="D:\WorkSpace\reactportfolio" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\reactportfolio" />
     </key>
   </component>
@@ -114,13 +119,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="340" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593766858600" />
-    <state x="537" y="280" width="606" height="490" key="find.popup" timestamp="1593767630804">
+    <state x="537" y="280" width="606" height="522" key="find.popup" timestamp="1594115427210">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="537" y="280" width="606" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593767630804" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1593768081817">
+    <state x="537" y="280" width="606" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115427210" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1594115117193">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593768081817" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115117193" />
   </component>
 </project>
