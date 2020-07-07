@@ -1,8 +1,7 @@
 export const styles = theme => {
   return {
     container: {
-      minHeight: '-webkit-fill-available',
-      height: '100vh',
+      height: '100%',
       paddingTop: 40,
       backgroundColor: theme.palette.primary[400],
       paddingRight: '10%',

@@ -1,10 +1,9 @@
 export const styles = theme => {
   return {
     container: {
-      height: '100vh',
+      height: '100%',
       width: '100%',
       overflow: 'auto',
-      paddingBottom: '40px'
     },
     firstPage: {
       width: '100%',

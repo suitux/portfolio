@@ -18,7 +18,7 @@ const PortfolioPageComponent = ({ classes }) => {
           }}
         />
       </Grid>
-      <Grid item xs={12} sm={12} md={7} lg={8} xl={8}>
+      <Grid item xs={12} sm={12} md={7} lg={8} xl={8} style={{ height: '100%' }}>
         <PortfolioContent />
       </Grid>
     </Grid>

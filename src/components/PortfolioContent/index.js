@@ -34,6 +34,7 @@ const PortfolioContentComponent = ({ display, classes }) => {
   return (
     <div className={classes.container}>
       <Box
+        style={{ height: '100%' }}
         display={{
           xs: 'block',
           sm: 'block',
