@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/OnlyMobileSection/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/OnlyMobileSection/styles/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,9 +121,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="537" y="280" width="606" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115427210" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1594115117193">
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1594115639474">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115117193" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115639474" />
   </component>
 </project>
