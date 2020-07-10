@@ -3,8 +3,7 @@ export const styles = theme => {
     container: {
       height: '100%',
       width: '100%',
-      overflow: 'auto',
-      paddingBottom: 60
+      overflow: 'auto'
     },
     firstPage: {
       width: '100%',
