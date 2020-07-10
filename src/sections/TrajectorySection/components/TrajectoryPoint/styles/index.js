@@ -19,10 +19,15 @@ export const styles = theme => {
     subtitle: {
       textAlign: 'center',
       letterSpacing: 6,
-      fontWeight: 300,
+      fontWeight: 300
     },
     separator: {
       marginBottom: 20
+    },
+    dateRange: {
+      width: '100%',
+      textAlign: 'center',
+      display: 'inline-block'
     }
   }
 }

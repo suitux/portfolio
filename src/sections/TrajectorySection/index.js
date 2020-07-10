@@ -14,6 +14,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             imageUrl={
               './src/img/jobs/nice_logo.png'
             }
+            dateRange={{from: 'Jan. 2019', to: 'Jun. 2020'}}
           >
             <ul>
               <li>QA Automation Framework development to manage testing in a video analytics development team.</li>
@@ -27,6 +28,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'Privalia'}
             job={'.NET Developer'}
             imageUrl={'./src/img/jobs/privalia_logo.png'}
+            dateRange={{from: 'Feb. 2018', to: 'Jan. 2019'}}
           >
             <ul>
               <li>Development of a WMS (Warehouse Management System).</li>
@@ -38,6 +40,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'Concatel'}
             job={'.NET Developer'}
             imageUrl={'./src/img/jobs/concatel_logo.jpg'}
+            dateRange={{from: 'Nov. 2016', to: 'Feb. 2018'}}
           >
             <ul>
               <li>Development of a WMS (Warehouse Management System).</li>
@@ -49,6 +52,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'Brainworks'}
             job={'FullStack Developer'}
             imageUrl={'./src/img/jobs/brainworks_logo.jpg'}
+            dateRange={{from: 'Jun. 2016', to: 'Nov. 2016'}}
           >
             <ul>
               <li>FullStack developer, with ASP.NET, C#, OraclePLSQL, PHP, Javascript and VisualBasic.</li>
@@ -59,6 +63,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'As Software'}
             job={'Developer'}
             imageUrl={'./src/img/jobs/assoftware_logo.jpg'}
+            dateRange={{from: 'Nov. 2015', to: 'Jun. 2016'}}
           >
             <ul>
               <li>PowerBuilder developer.</li>
@@ -70,6 +75,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'ONCE'}
             job={'Video game developer'}
             imageUrl={'./src/img/jobs/once_logo.jpg'}
+            dateRange={{from: 'Nov. 2014', to: 'Jul. 2015'}}
           >
             <ul>
               <li>Android Videogame developer.</li>
