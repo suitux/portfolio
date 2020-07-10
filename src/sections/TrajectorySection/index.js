@@ -12,7 +12,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'Nice People At Work (NPAW)'}
             job={'FullStack Developer'}
             imageUrl={
-              'https://media-exp1.licdn.com/dms/image/C4D0BAQGY1z4_iBMETg/company-logo_200_200/0?e=2159024400&v=beta&t=BfDwoOwBkJcuIo1pBd73PV3ZKZiEVVwwuRVREiNUtLM'
+              './src/img/jobs/nice_logo.png'
             }
           >
             <ul>
@@ -26,7 +26,7 @@ const TrajectorySectionComponent = ({ classes }) => {
           <TrajectoryPoint
             enterprise={'Privalia'}
             job={'.NET Developer'}
-            imageUrl={'https://www.xavirincon.com/src/img/privalia_logo.png'}
+            imageUrl={'./src/img/jobs/privalia_logo.png'}
           >
             <ul>
               <li>Development of a WMS (Warehouse Management System).</li>
@@ -37,7 +37,7 @@ const TrajectorySectionComponent = ({ classes }) => {
           <TrajectoryPoint
             enterprise={'Concatel'}
             job={'.NET Developer'}
-            imageUrl={'https://www.xavirincon.com/src/img/concatel_logo.jpg'}
+            imageUrl={'./src/img/jobs/concatel_logo.jpg'}
           >
             <ul>
               <li>Development of a WMS (Warehouse Management System).</li>
@@ -48,7 +48,7 @@ const TrajectorySectionComponent = ({ classes }) => {
           <TrajectoryPoint
             enterprise={'Brainworks'}
             job={'FullStack Developer'}
-            imageUrl={'https://www.xavirincon.com/src/img/brainworks_logo.jpg'}
+            imageUrl={'./src/img/jobs/brainworks_logo.jpg'}
           >
             <ul>
               <li>FullStack developer, with ASP.NET, C#, OraclePLSQL, PHP, Javascript and VisualBasic.</li>
@@ -58,7 +58,7 @@ const TrajectorySectionComponent = ({ classes }) => {
           <TrajectoryPoint
             enterprise={'As Software'}
             job={'Developer'}
-            imageUrl={'https://www.xavirincon.com/src/img/assoftware_logo.jpg'}
+            imageUrl={'./src/img/jobs/assoftware_logo.jpg'}
           >
             <ul>
               <li>PowerBuilder developer.</li>
@@ -69,7 +69,7 @@ const TrajectorySectionComponent = ({ classes }) => {
           <TrajectoryPoint
             enterprise={'ONCE'}
             job={'Video game developer'}
-            imageUrl={'https://www.xavirincon.com/src/img/once_logo.jpg'}
+            imageUrl={'./src/img/jobs/once_logo.jpg'}
           >
             <ul>
               <li>Android Videogame developer.</li>
