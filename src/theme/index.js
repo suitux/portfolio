@@ -4,6 +4,11 @@ import { blue } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   overrides: {
+    MuiSvgIcon: {
+      root: {
+        color: '#FFFFFF'
+      }
+    }
   },
   typography: {
     fontFamily: [
@@ -20,7 +25,7 @@ const theme = createMuiTheme({
     ].join(','),
   },
   palette: {
-    type: 'dark',
+    type: 'light',
     primary: blue,
     secondary: grey,
     text: {

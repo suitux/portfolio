@@ -4,6 +4,7 @@ export const styles = theme => {
       height: '100%',
       width: '100%',
       overflow: 'auto',
+      paddingBottom: 60
     },
     firstPage: {
       width: '100%',
