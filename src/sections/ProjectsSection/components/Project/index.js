@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 import Button from '@material-ui/core/Button'
 
-const ProjectComponent = ({ title, image, link, children, classes }) => {
+const ProjectComponent = ({ title, image, link, handleClickProjectLink, children, classes }) => {
   return (
     <div className={classes.container}>
       <Grid className={classes.container} container direction='row' justify='flex-start' alignItems='stretch'>
@@ -25,7 +25,7 @@ const ProjectComponent = ({ title, image, link, children, classes }) => {
           {children}
 
           <div className={classes.learnMoreContainer}>
-            {link && <Button onClick={() => window.open(link)}>Learn more</Button>}
+            {link && <Button onClick={() => handleClickProjectLink(link)}>Learn more</Button>}
           </div>
         </Grid>
       </Grid>
