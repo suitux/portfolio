@@ -7,6 +7,7 @@ import { getCookie, setCookie } from '../../helpers/cookies'
 import { AchievementAlert } from '../AchievementAlert'
 import { PortfolioSidebar } from "../PortfolioSidebar";
 import { ProjectsSection } from "../../sections/ProjectsSection";
+import { ContactSection } from "../../sections/ContactSection";
 
 const PortfolioContentComponent = ({ display, classes }) => {
   const [firstVisit, setFirstVisit] = React.useState(false)
@@ -48,6 +49,7 @@ const PortfolioContentComponent = ({ display, classes }) => {
       <TrajectorySection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactSection />
       {renderArchivements()}
     </div>
   )

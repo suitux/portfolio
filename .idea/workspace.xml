@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/TrajectorySection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/TrajectorySection/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sections" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,22 +44,37 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\reactportfolio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/src/img/projects" />
       <recent name="D:\WorkSpace\reactportfolio\src\components" />
       <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
       <recent name="D:\WorkSpace\reactportfolio" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sections" />
+      <recent name="$PROJECT_DIR$/dist/src/img" />
+      <recent name="D:\WorkSpace\reactportfolio" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.webpack.config.js">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="webpack.config.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/webpack.config.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Node.js.webpack.config.js" />
+      <item itemvalue="npm.start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,6 +93,12 @@
       <workItem from="1571069024759" duration="5104000" />
       <workItem from="1593766033423" duration="81000" />
       <workItem from="1593766502269" duration="2759000" />
+      <workItem from="1594391871114" duration="11837000" />
+      <workItem from="1594469608140" duration="209000" />
+      <workItem from="1596711832590" duration="534000" />
+      <workItem from="1596803311268" duration="268000" />
+      <workItem from="1596831247941" duration="238000" />
+      <workItem from="1597152396029" duration="30000" />
     </task>
     <servers />
   </component>
@@ -109,21 +131,43 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="544" y="412" key="#Prettier/0.0.1680.1050@0.0.1680.1050" timestamp="1593766810574" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597152425214">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597152425214" />
     <state x="568" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593768484792">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="568" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593768484792" />
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1594469584615">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1594469584615" />
+    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1594469584614">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1594469584614" />
+    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1594469584613">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1594469584613" />
+    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1594469584615">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1594469584615" />
     <state x="340" y="164" key="SettingsEditor" timestamp="1593766858600">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="340" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593766858600" />
-    <state x="537" y="280" width="606" height="522" key="find.popup" timestamp="1594115427210">
+    <state x="537" y="280" width="606" height="522" key="find.popup" timestamp="1596716425692">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="537" y="280" width="606" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115427210" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1594115639474">
+    <state x="537" y="280" width="606" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1596716425692" />
+    <state x="537" y="280" width="606" height="522" key="find.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1594465810239" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1596903674915">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594115639474" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1596711933567" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1596903674915" />
   </component>
 </project>
