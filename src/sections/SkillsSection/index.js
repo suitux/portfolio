@@ -1,12 +1,12 @@
-import { Grid, withStyles } from '@material-ui/core'
-import { styles } from './styles'
-import { PortfolioSection } from '../../components/PortfolioSection'
-import { Skill } from './components/Skill'
-import { skills } from './data'
+import { Grid, withStyles } from "@material-ui/core";
+import { styles } from "./styles";
+import { PortfolioSection } from "../../components/PortfolioSection";
+import { Skill } from "./components/Skill";
+import { skills } from "./data";
 
 const SkillsSectionComponent = ({ classes }) => {
   return (
-    <PortfolioSection title={'Skills'} isPage>
+    <PortfolioSection title={"Skills"} isPage>
       <Grid container direction='row' justify='center' alignItems='center' spacing={8}>
         {skills.map(skill => {
           return (
@@ -14,14 +14,14 @@ const SkillsSectionComponent = ({ classes }) => {
               <Skill
                 {...skill}
                 size={150}
-                style={{ margin: '0 auto' }}
+                style={{ margin: "0 auto" }}
               />
             </Grid>
-          )
+          );
         })}
       </Grid>
     </PortfolioSection>
-  )
-}
+  );
+};
 
-export const SkillsSection = withStyles(styles)(SkillsSectionComponent)
+export const SkillsSection = withStyles(styles)(SkillsSectionComponent);
