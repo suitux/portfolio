@@ -2,6 +2,7 @@ import { Grid, withStyles } from '@material-ui/core'
 import { styles } from './styles'
 import { PortfolioSection } from '../../components/PortfolioSection'
 import { TrajectoryPoint } from './components/TrajectoryPoint'
+import Typography from "@material-ui/core/Typography";
 
 const TrajectorySectionComponent = ({ classes }) => {
   return (
@@ -15,7 +16,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Sep. 2019', to: 'Actually' }}
           >
             <ul>
-              <li>B2C Trovit team</li>
+              <li><Typography variant={'body1'}>B2C Trovit team</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -26,10 +27,10 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Jan. 2019', to: 'Jun. 2020' }}
           >
             <ul>
-              <li>QA Automation Framework development to manage testing in a video analytics development team.</li>
-              <li>Improvements in the enterprise main web.</li>
-              <li>React based platform development about internship user management.</li>
-              <li>New characteristics development of Video Analytics React based platform.</li>
+              <li><Typography variant={'body1'}>QA Automation Framework development to manage testing in a video analytics development team.</Typography></li>
+              <li><Typography variant={'body1'}>Improvements in the enterprise main web.</Typography></li>
+              <li><Typography variant={'body1'}>React based platform development about internship user management.</Typography></li>
+              <li><Typography variant={'body1'}>New characteristics development of Video Analytics React based platform.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -40,8 +41,8 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Feb. 2018', to: 'Jan. 2019' }}
           >
             <ul>
-              <li>Development of a WMS (Warehouse Management System).</li>
-              <li>Testing Framework development for the WMS Project.</li>
+              <li><Typography variant={'body1'}>Development of a WMS (Warehouse Management System).</Typography></li>
+              <li><Typography variant={'body1'}>Testing Framework development for the WMS Project.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -52,8 +53,8 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Nov. 2016', to: 'Feb. 2018' }}
           >
             <ul>
-              <li>Development of a WMS (Warehouse Management System).</li>
-              <li>Testing Framework development for the WMS Project.</li>
+              <li><Typography variant={'body1'}>Development of a WMS (Warehouse Management System).</Typography></li>
+              <li><Typography variant={'body1'}>Testing Framework development for the WMS Project.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -64,7 +65,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Jun. 2016', to: 'Nov. 2016' }}
           >
             <ul>
-              <li>FullStack developer, with ASP.NET, C#, OraclePLSQL, PHP, Javascript and VisualBasic.</li>
+              <li><Typography variant={'body1'}>FullStack developer, with ASP.NET, C#, OraclePLSQL, PHP, Javascript and VisualBasic.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -75,8 +76,8 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Nov. 2015', to: 'Jun. 2016' }}
           >
             <ul>
-              <li>PowerBuilder developer.</li>
-              <li>WMS (Warehouse Management System) developer.</li>
+              <li><Typography variant={'body1'}>PowerBuilder developer.</Typography></li>
+              <li><Typography variant={'body1'}>WMS (Warehouse Management System) developer.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
@@ -87,8 +88,8 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Nov. 2014', to: 'Jul. 2015' }}
           >
             <ul>
-              <li>Android Videogame developer.</li>
-              <li>I developed a game orientated to blind people.</li>
+              <li><Typography variant={'body1'}>Android Videogame developer.</Typography></li>
+              <li><Typography variant={'body1'}>I developed a game orientated to blind people.</Typography></li>
             </ul>
           </TrajectoryPoint>
         </Grid>
