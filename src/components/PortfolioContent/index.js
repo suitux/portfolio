@@ -49,7 +49,7 @@ const PortfolioContentComponent = ({ display, classes }) => {
       <TrajectorySection />
       <SkillsSection />
       <ProjectsSection />
-      <ContactSection />
+      <div style={{ height: 40 }} />
       {renderArchivements()}
     </div>
   )
