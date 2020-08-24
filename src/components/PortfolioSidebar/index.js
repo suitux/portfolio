@@ -40,7 +40,7 @@ const PortfolioSidebarComponent = ({ display, classes }) => {
     <Box display={display} className={classes.container}>
       <img src={'./src/img/circle-xavi.png'} className={classes.imageMe} />
       <h1 className={classes.title}>Xavier Rincon Rico</h1>
-      <h2 className={classes.subTitle}>Full Stack Developer</h2>
+      <h2 className={classes.subTitle}>FullStack Developer</h2>
       <hr className={classes.separator} />
 
       <List component={'nav'}>

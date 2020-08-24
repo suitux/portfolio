@@ -13,7 +13,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             enterprise={'Trovit'}
             job={'FullStack Developer'}
             imageUrl={'./src/img/jobs/trovit.png'}
-            dateRange={{ from: 'Sep. 2019', to: 'Actually' }}
+            dateRange={{ from: 'Sep. 2019', to: 'Currently' }}
           >
             <ul>
               <li><Typography variant={'body1'}>B2C Trovit team</Typography></li>
@@ -29,7 +29,7 @@ const TrajectorySectionComponent = ({ classes }) => {
             <ul>
               <li><Typography variant={'body1'}>QA Automation Framework development to manage testing in a video analytics development team.</Typography></li>
               <li><Typography variant={'body1'}>Improvements in the enterprise main web.</Typography></li>
-              <li><Typography variant={'body1'}>React based platform development about internship user management.</Typography></li>
+              <li><Typography variant={'body1'}>React based platform development about intern user management.</Typography></li>
               <li><Typography variant={'body1'}>New characteristics development of Video Analytics React based platform.</Typography></li>
             </ul>
           </TrajectoryPoint>

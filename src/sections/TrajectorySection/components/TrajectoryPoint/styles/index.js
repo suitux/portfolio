@@ -1,5 +1,8 @@
 export const styles = theme => {
   return {
+    container: {
+      marginTop: 30,
+    },
     logoContainer: {
       width: 100,
       height: 100,

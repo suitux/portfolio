@@ -42,7 +42,7 @@ const ProjectsSectionComponent = ({ classes }) => {
               based app.
             </Typography>
             <Typography variant={'body1'}>
-              App that manages the user diet and allows to introduce new food into her diet.
+              App that manages the user diet and allows to introduce new food into the diet.
             </Typography>
           </Project>
         </Grid>
@@ -57,7 +57,7 @@ const ProjectsSectionComponent = ({ classes }) => {
               <Link href={'https://es.reactjs.org/'} target={'_BLANK'}>
                 React
               </Link>{' '}
-              based portfolio
+              based portfolio.
             </Typography>
             <Typography variant={'body1'}>Did it just for fun :)</Typography>
           </Project>
@@ -70,9 +70,15 @@ const ProjectsSectionComponent = ({ classes }) => {
             link={'https://bitbucket.org/suitux/allwepay/src/master/'}
             handleClickProjectLink={handleClickProjectLink}
           >
-            <Typography variant={'body1'}>App that I developed to learn Ionic.</Typography>
             <Typography variant={'body1'}>
-              The app divides an account and tells to the user what haves to pay.
+              App that I developed to learn{' '}
+              <Link href={'https://ionicframework.com/'} target={'_BLANK'}>
+                Ionic
+              </Link>
+              .
+            </Typography>
+            <Typography variant={'body1'}>
+              The app divides bills/payments and tells the user what has to pay.
             </Typography>
           </Project>
         </Grid>
@@ -87,11 +93,9 @@ const ProjectsSectionComponent = ({ classes }) => {
               App that I developed when I was doing the Development Degree as a final project.
             </Typography>
             <Typography variant={'body1'}>
-              Consists of a game that are developed and customized for blind child.
+              Consists of a game that is developed and customized for blind child.
             </Typography>
-            <Typography variant={'body1'}>
-              It helps to child to move into a set of labyrinths with a character.
-            </Typography>
+            <Typography variant={'body1'}>It helps child to move into a set of labyrinths with a character.</Typography>
           </Project>
         </Grid>
 
