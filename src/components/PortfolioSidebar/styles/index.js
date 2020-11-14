@@ -1,6 +1,7 @@
 export const styles = theme => {
   return {
     container: {
+      minHeight: '100vh',
       height: '100%',
       paddingTop: 40,
       backgroundColor: theme.palette.primary[400],

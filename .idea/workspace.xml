@@ -3,32 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/haltero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/motorcycles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/quality.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/stack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/aboutme/teamssocial-noresize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/circle-xavi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/assoftware_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/brainworks_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/concatel_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/nice_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/once_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/privalia_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/jobs/trovit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/projects/allwepay_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/projects/caniscape_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/projects/digestly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/projects/thingiverse_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/skills/node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/skills/php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioSidebar/styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioSidebar/styles/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +114,7 @@
       <workItem from="1597314237691" duration="5905000" />
       <workItem from="1598261583943" duration="1093000" />
       <workItem from="1604251318432" duration="738000" />
-      <workItem from="1605393905162" duration="664000" />
+      <workItem from="1605393905162" duration="1370000" />
     </task>
     <servers />
   </component>
@@ -167,39 +144,48 @@
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598262300710" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597152425214" />
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1601811977592">
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1605394823841">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823841" />
     <state width="1659" height="290" key="GridCell.Tab.0.bottom/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977592" />
     <state width="1659" height="290" key="GridCell.Tab.0.bottom/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667105" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1601811977590">
+    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1605394823839">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823839" />
     <state width="1659" height="290" key="GridCell.Tab.0.center/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977590" />
     <state width="1659" height="290" key="GridCell.Tab.0.center/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667104" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1601811977590">
+    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1605394823836">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823836" />
     <state width="1659" height="290" key="GridCell.Tab.0.left/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977590" />
     <state width="1659" height="290" key="GridCell.Tab.0.left/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667103" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1601811977591">
+    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1605394823840">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823840" />
     <state width="1659" height="290" key="GridCell.Tab.0.right/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977591" />
     <state width="1659" height="290" key="GridCell.Tab.0.right/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667104" />
+    <state x="598" y="250" key="RollbackChangesDialog" timestamp="1605394727121">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="598" y="250" key="RollbackChangesDialog/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394727121" />
     <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604251565506">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-2022.-1080.1920.1080/0.0.1680.1050/-102.-1080.1920.1080@0.0.1680.1050" timestamp="1604251565506" />
-    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1598262270679">
+    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1605395013495">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="537" y="280" width="606" height="580" key="find.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605395013495" />
     <state x="537" y="280" width="606" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598262270679" />
     <state x="537" y="280" width="606" height="522" key="find.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597331287590" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1597331959902">
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1605394575434">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1596711933567" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394575434" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597331959902" />
   </component>
 </project>
