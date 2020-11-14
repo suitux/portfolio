@@ -1,4 +1,4 @@
-import { Box, Tooltip, withStyles } from '@material-ui/core'
+import { Box, Fab, List, ListItem, ListItemIcon, ListItemText, Tooltip, withStyles } from '@material-ui/core'
 import { styles } from './styles'
 
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
@@ -6,22 +6,28 @@ import EmailIcon from '@material-ui/icons/Email'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import GetAppIcon from '@material-ui/icons/GetApp'
-import { List, ListItem, ListItemIcon, ListItemText, Fab } from '@material-ui/core'
-import { AchievementAlert } from "../AchievementAlert";
-import { getCookie, setCookie } from "../../helpers/cookies";
+import { AchievementAlert } from '../AchievementAlert'
+import { getCookie, setCookie } from '../../helpers/cookies'
+import { download_file } from "../../helpers/download";
 
 const PortfolioSidebarComponent = ({ display, classes }) => {
   const [downloadCvAchievement, setDownloadCvAchievement] = React.useState(false)
 
   const handleDownloadCV = () => {
     const previouslyDownloadedCv = getCookie('downloadCvAchievement')
+    const timeoutWait = previouslyDownloadedCv ? 0 : 1000
 
     if (!previouslyDownloadedCv) {
       setCookie('downloadCvAchievement', true, 15)
       setDownloadCvAchievement(true)
     }
 
-    /// TODO: Download CV
+    setTimeout(() => {
+      download_file(
+        'https://firebasestorage.googleapis.com/v0/b/portfolio-1539542541675.appspot.com/o/cv.pdf?alt=media',
+        'xavier_rincon.pdf'
+      )
+    }, timeoutWait)
   }
 
   const renderArchivements = () => {
