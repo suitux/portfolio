@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioSidebar/styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioSidebar/styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/ProjectsSection/components/Project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ProjectsSection/components/Project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/ProjectsSection/components/Project/style/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ProjectsSection/components/Project/style/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/ProjectsSection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ProjectsSection/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/src/img/aboutme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,20 +43,21 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
-      <recent name="$PROJECT_DIR$/dist/src/img/projects" />
-      <recent name="D:\WorkSpace\reactportfolio\src\components" />
-      <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
-      <recent name="D:\WorkSpace\reactportfolio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
       <recent name="$PROJECT_DIR$/src/sections/AboutMeSection/components/AboutSkill" />
       <recent name="$PROJECT_DIR$/src/sections" />
       <recent name="$PROJECT_DIR$/dist/src/img" />
+      <recent name="D:\WorkSpace\reactportfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/src/img/projects" />
+      <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
+      <recent name="D:\WorkSpace\reactportfolio\src\components" />
+      <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
       <recent name="D:\WorkSpace\reactportfolio" />
     </key>
   </component>
@@ -88,6 +89,7 @@
       <item itemvalue="npm.build" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,11 +117,12 @@
       <workItem from="1598261583943" duration="1093000" />
       <workItem from="1604251318432" duration="738000" />
       <workItem from="1605393905162" duration="1370000" />
+      <workItem from="1610825998928" duration="983000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,35 +142,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598262300710">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598262300710" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597152425214" />
     <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1605394823841">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.bottom/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823841" />
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977592" />
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667105" />
     <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1605394823839">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.center/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823839" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977590" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667104" />
     <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1605394823836">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.left/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823836" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977590" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667103" />
     <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1605394823840">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.right/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823840" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right/1680.-562.1920.1080/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1601811977591" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597657667104" />
     <state x="598" y="250" key="RollbackChangesDialog" timestamp="1605394727121">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -180,12 +170,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="537" y="280" width="606" height="580" key="find.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605395013495" />
-    <state x="537" y="280" width="606" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598262270679" />
-    <state x="537" y="280" width="606" height="522" key="find.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597331287590" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1605394575434">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="431" y="198" width="670" height="582" key="search.everywhere.popup" timestamp="1610826034266">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394575434" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/1680.-813.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1597331959902" />
+    <state x="431" y="198" width="670" height="582" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610826034266" />
   </component>
 </project>

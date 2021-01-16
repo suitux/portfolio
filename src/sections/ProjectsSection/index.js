@@ -29,6 +29,42 @@ const ProjectsSectionComponent = ({ classes }) => {
       <Grid container direction='row' justify='center' alignItems='center' spacing={2}>
         <Grid item xs={12} md={10} lg={10} xl={10}>
           <Project
+            title={'Fluent DNS UI'}
+            image={'./src/img/projects/fluent-dns-logo-ui-react.png'}
+            imageStyle={{backgroundSize: '175%'}}
+            link={'https://github.com/suitux/fluent-dns-ui'}
+            handleClickProjectLink={handleClickProjectLink}
+          >
+            <Typography variant={'body1'}>
+              <Link href={'https://es.reactjs.org/'} target={'_BLANK'}>
+                React
+              </Link>{' '}
+              based UI to manage{' '}
+              <Link href={'https://github.com/suitux/fluent-dns'} target={'_BLANK'}>
+                Fluent DNS.
+              </Link>{' '}
+            </Typography>
+          </Project>
+        </Grid>
+        <Grid item xs={12} md={10} lg={10} xl={10}>
+          <Project
+            title={'Fluent DNS'}
+            image={'./src/img/projects/fluent-dns-logo-mini.png'}
+            imageStyle={{backgroundSize: '75%'}}
+            link={'https://github.com/suitux/fluent-dns'}
+            handleClickProjectLink={handleClickProjectLink}
+          >
+            <Typography variant={'body1'}>
+              Fluent DNS is a javascript based DNS that simplifies the work of mounting a DNS server using the library{' '}
+              <Link href={'https://github.com/song940/node-dns'} target={'_BLANK'}>
+                dns2
+              </Link>{' '}
+              and reduces it to a npm start.
+            </Typography>
+          </Project>
+        </Grid>
+        <Grid item xs={12} md={10} lg={10} xl={10}>
+          <Project
             title={'Digestly'}
             image={'./src/img/projects/digestly.png'}
             link={'https://digestbcn.com/'}

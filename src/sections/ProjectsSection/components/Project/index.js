@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 import Button from '@material-ui/core/Button'
 
-const ProjectComponent = ({ title, image, link, handleClickProjectLink, children, classes }) => {
+const ProjectComponent = ({ title, image, imageStyle, link, handleClickProjectLink, children, classes }) => {
   return (
     <div className={classes.container}>
       <Grid className={classes.container} container direction='row' justify='flex-start' alignItems='stretch'>
@@ -12,7 +12,8 @@ const ProjectComponent = ({ title, image, link, handleClickProjectLink, children
           <div
             className={classes.image}
             style={{
-              backgroundImage: `url('${image}')`
+              backgroundImage: `url('${image}')`,
+              ...imageStyle
             }}
           />
         </Grid>

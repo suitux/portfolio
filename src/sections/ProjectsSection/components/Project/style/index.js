@@ -8,7 +8,6 @@ export const styles = theme => {
       height: 100,
       backgroundSize: '100%',
       backgroundRepeat: 'no-repeat',
-      borderRadius: '100%',
       backgroundPosition: 'center',
       margin: '0px auto 20px auto'
     },
