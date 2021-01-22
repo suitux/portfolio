@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100%;">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>Xavier Rincon Rico</title>
-</head>
-<body style="height: 100%; margin: 0;">
-<div id="app" style="height: 100%"></div>
-<script src="./bundle.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Xavier Rincon Rico</title>
+  </head>
+  <body style="height: 100%; margin: 0;">
+    <div id="app" style="height: 100%"></div>
+    <script src="./bundle.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyBT5UWSOraUWmb5cQZS6e53wckm18iYduw',
+        authDomain: 'portfolio-1539542541675.firebaseapp.com',
+        databaseURL: 'https://portfolio-1539542541675.firebaseio.com',
+        projectId: 'portfolio-1539542541675',
+        storageBucket: 'portfolio-1539542541675.appspot.com',
+        messagingSenderId: '231004710803',
+        appId: '1:231004710803:web:c7543653ff0af673886a66'
+      }
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig)
+    </script>
+  </body>
 </html>
