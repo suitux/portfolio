@@ -30,6 +30,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "eslint-config-prettier": "^6.4.0",
+    "firebase": "^8.2.4",
     "lodash": "^4.17.19",
     "prettier": "^1.19.1",
     "react": "^16.8.6",
