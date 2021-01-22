@@ -8,7 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import GetAppIcon from '@material-ui/icons/GetApp'
 import { AchievementAlert } from '../AchievementAlert'
 import { getCookie, setCookie } from '../../helpers/cookies'
-import { download_file } from "../../helpers/download";
+import { download_file } from '../../helpers/download'
 
 const PortfolioSidebarComponent = ({ display, classes }) => {
   const [downloadCvAchievement, setDownloadCvAchievement] = React.useState(false)
@@ -44,12 +44,12 @@ const PortfolioSidebarComponent = ({ display, classes }) => {
 
   return (
     <Box display={display} className={classes.container}>
-      <img src={'./src/img/circle-xavi.png'} className={classes.imageMe} />
+      <img src={'./src/img/circle-xavi.png'} className={classes.imageMe} alt={'Xavier Rincon Rico'} />
       <h1 className={classes.title}>Xavier Rincon Rico</h1>
       <h2 className={classes.subTitle}>FullStack Developer</h2>
       <hr className={classes.separator} />
 
-      <List component={'nav'}>
+      <List component={'ul'}>
         <ListItem>
           <ListItemIcon>
             <EmailIcon />

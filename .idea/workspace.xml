@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/AboutMeSection/components/AboutSkill/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/AboutMeSection/components/AboutSkill/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +120,7 @@
       <workItem from="1605393905162" duration="1370000" />
       <workItem from="1610825998928" duration="983000" />
       <workItem from="1611313981046" duration="2357000" />
+      <workItem from="1611345924337" duration="547000" />
     </task>
     <servers />
   </component>
@@ -166,21 +165,27 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="598" y="250" key="RollbackChangesDialog/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394727121" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1611346272224">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611346272224" />
     <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604251565506">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-2022.-1080.1920.1080/0.0.1680.1050/-102.-1080.1920.1080@0.0.1680.1050" timestamp="1604251565506" />
-    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1611328164542">
+    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1611346139373">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="537" y="280" width="606" height="580" key="find.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611346139373" />
     <state x="537" y="280" width="606" height="580" key="find.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605395013495" />
     <state x="537" y="280" width="606" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611328164542" />
-    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup" timestamp="1611328372297">
+    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup" timestamp="1611345969789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611345969789" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394575434" />
     <state x="431" y="198" width="670" height="582" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610826034266" />
-    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611328372297" />
+    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611329059448" />
     <state x="503" y="251" width="782" height="663" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1611314011202" />
   </component>
 </project>

@@ -9,6 +9,7 @@ const AboutSkillComponent = ({ text, image, position, width, imageSize = 175, de
       <Grid item xs={12} style={{ marginBottom: 30, textAlign: 'center' }}>
         <Typography
           variant={'h4'}
+          component={'span'}
           style={{
             textAlign: 'center'
           }}
@@ -25,6 +26,7 @@ const AboutSkillComponent = ({ text, image, position, width, imageSize = 175, de
         <Grid item xs={12}>
           <img
             src={image}
+            alt={text}
             style={{
               width: imageSize,
               display: 'block',
