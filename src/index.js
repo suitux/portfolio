@@ -6,7 +6,8 @@ import { MuiThemeProvider } from '@material-ui/core'
 import theme from './theme'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { PortfolioPage } from './pages/Portfolio'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/analytics';
 
 firebase.initializeApp({
   apiKey: 'AIzaSyBT5UWSOraUWmb5cQZS6e53wckm18iYduw',
