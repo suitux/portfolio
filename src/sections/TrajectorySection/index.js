@@ -16,7 +16,10 @@ const TrajectorySectionComponent = ({ classes }) => {
             dateRange={{ from: 'Sep. 2019', to: 'Currently' }}
           >
             <ul>
-              <li><Typography variant={'body1'}>B2C Trovit team</Typography></li>
+              <li><Typography variant={'body1'}>Part of B2C (Business to Client) team of Trovit.</Typography></li>
+              <li><Typography variant={'body1'}>My duties: Update, A/B Testing and maintain Trovit website including Frontend (Backbone and React) and Backend (PHP).</Typography></li>
+              <li><Typography variant={'body1'}>Working on a team with Pair Programming methodology.</Typography></li>
+              <li><Typography variant={'body1'}>Applying TDD and BDD methodologies everyday in every development.</Typography></li>
             </ul>
           </TrajectoryPoint>
 
