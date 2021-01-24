@@ -8,9 +8,9 @@ const SkillsSectionComponent = ({ classes }) => {
   return (
     <PortfolioSection title={"Skills"} isPage>
       <Grid container direction='row' justify='center' alignItems='center' spacing={8}>
-        {skills.map(skill => {
+        {skills.map((skill, index) => {
           return (
-            <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
+            <Grid key={index} item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Skill
                 {...skill}
                 size={150}

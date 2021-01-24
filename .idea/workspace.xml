@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="" />
+    <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/SkillsSection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/SkillsSection/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,18 +46,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/dist/src/img/projects" />
+      <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
+      <recent name="D:\WorkSpace\reactportfolio\src\components" />
+      <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
       <recent name="$PROJECT_DIR$/src/sections/AboutMeSection/components/AboutSkill" />
       <recent name="$PROJECT_DIR$/src/sections" />
       <recent name="$PROJECT_DIR$/dist/src/img" />
-      <recent name="D:\WorkSpace\reactportfolio" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist/src/img/projects" />
-      <recent name="$PROJECT_DIR$/dist/src/img/aboutme" />
-      <recent name="D:\WorkSpace\reactportfolio\src\components" />
-      <recent name="D:\WorkSpace\reactportfolio\src\redux\pages" />
       <recent name="D:\WorkSpace\reactportfolio" />
     </key>
   </component>
@@ -115,7 +119,8 @@
       <workItem from="1605393905162" duration="1370000" />
       <workItem from="1610825998928" duration="983000" />
       <workItem from="1611313981046" duration="2357000" />
-      <workItem from="1611345924337" duration="828000" />
+      <workItem from="1611345924337" duration="1927000" />
+      <workItem from="1611510239951" duration="153000" />
     </task>
     <servers />
   </component>
@@ -168,16 +173,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-2022.-1080.1920.1080/0.0.1680.1050/-102.-1080.1920.1080@0.0.1680.1050" timestamp="1604251565506" />
-    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1611346139373">
+    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1611348022972">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="537" y="280" width="606" height="580" key="find.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611346139373" />
+    <state x="537" y="280" width="606" height="580" key="find.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611348022972" />
     <state x="537" y="280" width="606" height="580" key="find.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605395013495" />
     <state x="537" y="280" width="606" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611328164542" />
-    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup" timestamp="1611345969789">
+    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup" timestamp="1611510327494">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611345969789" />
+    <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611510327494" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394575434" />
     <state x="431" y="198" width="670" height="582" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610826034266" />
     <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611329059448" />
