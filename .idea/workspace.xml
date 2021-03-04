@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="53432146-a751-4ec7-8c33-7a2e96518c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sections/SkillsSection/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/SkillsSection/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioSidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store/reducers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +112,7 @@
       <item itemvalue="npm.start" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -143,45 +168,20 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1605394823841">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823841" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1605394823839">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.center/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823839" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1605394823836">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.left/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823836" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1605394823840">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.right/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394823840" />
-    <state x="598" y="250" key="RollbackChangesDialog" timestamp="1605394727121">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="598" y="250" key="RollbackChangesDialog/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394727121" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1611346272224">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611346272224" />
-    <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604251565506">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="467" y="0" width="745" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-2022.-1080.1920.1080/0.0.1680.1050/-102.-1080.1920.1080@0.0.1680.1050" timestamp="1604251565506" />
-    <state x="537" y="280" width="606" height="580" key="find.popup" timestamp="1611348022972">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="460" y="240" width="567" height="498" key="find.popup" timestamp="1614859188254">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="537" y="280" width="606" height="580" key="find.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611348022972" />
-    <state x="537" y="280" width="606" height="580" key="find.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605395013495" />
+    <state x="460" y="240" width="567" height="498" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614859188254" />
     <state x="537" y="280" width="606" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611328164542" />
     <state x="503" y="232" width="782" height="680" key="search.everywhere.popup" timestamp="1611510439150">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1611510439150" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-240.-1080.1920.1080/-2160.-1080.1920.1080/1680.-500.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605394575434" />
     <state x="431" y="198" width="670" height="582" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610826034266" />
     <state x="503" y="232" width="782" height="680" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611329059448" />
     <state x="503" y="251" width="782" height="663" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1611314011202" />

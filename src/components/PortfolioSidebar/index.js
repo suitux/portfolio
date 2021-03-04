@@ -9,11 +9,16 @@ import GetAppIcon from '@material-ui/icons/GetApp'
 import { AchievementAlert } from '../AchievementAlert'
 import { getCookie, setCookie } from '../../helpers/cookies'
 import { download_file } from '../../helpers/download'
+import { useFirebase } from 'react-redux-firebase'
 
 const PortfolioSidebarComponent = ({ display, classes }) => {
   const [downloadCvAchievement, setDownloadCvAchievement] = React.useState(false)
 
+  const analytics = useFirebase().analytics()
+
   const handleDownloadCV = () => {
+    analytics.logEvent('cv', { action: 'download' })
+
     const previouslyDownloadedCv = getCookie('downloadCvAchievement')
     const timeoutWait = previouslyDownloadedCv ? 0 : 1000
 
